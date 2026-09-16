@@ -1,0 +1,16 @@
+data_sensor = []
+
+def input_data():
+    suhu = float(input("Masukkan suhu (°C): "))
+    kelembapan = float(input("Masukkan kelembapan (%): "))
+
+    data = {
+        "suhu": suhu,
+        "kelembapan": kelembapan
+    }
+
+    data_sensor.append(data)
+    print("Data berhasil disimpan!")
+
+
+input_data()
