@@ -9,8 +9,8 @@ def input_data():
         "kelembapan": kelembapan
     }
 
-    data_sensor.append(data)
-    print("Data berhasil disimpan!")
+    def tampilkan_status():
+    print("Kondisi biji kopi normal")
 
 
 input_data()
