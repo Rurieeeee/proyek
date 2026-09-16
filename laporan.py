@@ -1,5 +1,5 @@
-def tampilkan_laporan(data_sensor):
-    print("\n--- LAPORAN DATA SENSOR ---")
+def tampilkan_status():
+    print("Kondisi penyimpanan biji kopi baik")
 
     for i, data in enumerate(data_sensor, 1):
         print("Data ke-", i)
