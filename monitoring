@@ -9,12 +9,8 @@ def input_data():
         "kelembapan": kelembapan
     }
 
-    def tampilkan_status():
- fitur-input-data
-    print("Suhu dan kelembapan biji kopi normal")
-
-    print("Kondisi biji kopi normal")
- main
+def tampilkan_status():
+    print("Kondisi penyimpanan biji kopi baik")
 
 
 input_data()
